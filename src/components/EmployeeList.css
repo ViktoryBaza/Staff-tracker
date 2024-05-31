@@ -1,0 +1,38 @@
+.employees {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-image: linear-gradient(55deg, #3b62fc, #8c7fff, #9589ff, #adabff, #6785ff, #475dff, #22b8cf) 1;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    font-size: 24px;
+}
+li {
+    color: rgba(0, 0, 0, 0.633);
+    border-radius: 5px;
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+li:hover {
+    background-color: rgb(193, 197, 255);
+    transform: scale(1.1);
+    color: rgba(0, 0, 0, 0.923);
+}
+.title {
+    font-size: 32px;
+}
